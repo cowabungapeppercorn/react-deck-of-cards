@@ -1,0 +1,14 @@
+.Card {
+  position: absolute;
+  top: 10em;
+  left: 25em;
+  right: 45%;
+}
+
+.Card:nth-of-type(3n) {
+  transform: rotate(-20deg);
+}
+
+.Card:nth-of-type(3n + 1) {
+  transform: rotate(20deg);
+}
